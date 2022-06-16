@@ -13,7 +13,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: var(--main-text-color);
-	background-color: var(--main-bgd-color);
+	background-color: var(--white);
 	letter-spacing: 0.03em;
 }
 
@@ -24,7 +24,6 @@ body {
 	margin: -1px;
 	border: 0;
 	padding: 0;
-
 	white-space: nowrap;
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
@@ -180,7 +179,7 @@ body {
 	line-height: 1.7;
 	text-decoration: none;
 	font-style: normal;
-	color: var(--main-text-color);
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contacts-list-item:first-child a {
@@ -216,10 +215,12 @@ body {
 .portfolio-buttons-list-item button:hover,
 .portfolio-buttons-list-item button:active {
 	background-color: var(--accent);
+	color: var(--white);
 }
 
 .portfolio-active-btn {
 	background-color: var(--accent);
+	color: var(--white);
 }
 
 .portfolio-cards-list {
